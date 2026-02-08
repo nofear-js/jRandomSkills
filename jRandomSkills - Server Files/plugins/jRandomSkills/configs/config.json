@@ -3,47 +3,27 @@
   "YourSkillChatInfo": true,
   "KillerSkillChatInfo": true,
   "TeamMateSkillChatInfo": true,
-  "SummaryAfterTheRound": true,
+  "SummaryAfterTheRound": false,
   "DebugMode": false,
   "AlternativeSkillButton": null,
   "SkillTimeBeforeStart": 7.0,
   "SkillHudDuration": 999.0,
   "SkillDescriptionDuration": 999.0,
-  "DisplayAlwaysDescription": false,
+  "DisplayAlwaysDescription": true,
   "DisableSpectateHUD": false,
   "FlashingHtmlHudFix": true,
   "CS2TraceRayDebug": false,
   "DisableHUDOnDeathPermission": "@jRandomSkills/death",
   "DisableSkillsOnRoundEnd": false,
   "LanguageSystem": {
-    "DefaultLangCode": "en",
+    "DefaultLangCode": "ru",
     "DisableGeoLite": false,
     "LanguageInfos": [
-      {
-        "IsoCodes": "ZH, CN, TW, HK, MO, SG",
-        "FileName": "zh"
-      },
-      {
-        "IsoCodes": "PT-BR, PT, BR, AO, CV, GW, MZ, ST, TL",
-        "FileName": "pt-br"
-      },
-      {
-        "IsoCodes": "FR, MC, HT",
-        "FileName": "fr"
-      },
-      {
-        "IsoCodes": "DE, AT, CH, LI, LU, BE",
-        "FileName": "de"
-      },
-      {
-        "IsoCodes": "PL",
-        "FileName": "pl"
-      },
-      {
-        "IsoCodes": "EN, GB, US",
-        "FileName": "en"
-      }
-    ]
+        {
+          "IsoCodes": "RU",
+          "FileName": "ru"
+        }
+      ]
   },
   "HtmlHudCustomisation": {
     "HeaderLineColor": "#FFFFFF",
@@ -71,7 +51,7 @@
     "InfoPlayerNameColor": "\u0002",
     "InfoSkillColor": "\u0006",
     "InfoMessageShow": true,
-    "TagFormat": "\u0002◢◆◤ {TAG} ◥◆◣"
+    "TagFormat": "\u0002[{TAG}]"
   },
   "NormalCommands": {
     "SetSkillCommand": {
@@ -113,7 +93,7 @@
   },
   "VotingCommands": {
     "StartGameCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "Alias": "start, go, começar, iniciar, 开始, 启动",
       "Permissions": "@jRandomSkills/admin",
       "StartParams": "mp_freezetime 15; mp_forcecamera 0; mp_overtime_enable 1; sv_cheats 0",
@@ -125,7 +105,7 @@
       "MinimumPlayersToStartVoting": 2
     },
     "ChangeMapCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "TimeToVote": 25.0,
       "PercentagesToSuccess": 90.0,
       "TimeToNextVoting": 15.0,
@@ -135,7 +115,7 @@
       "Permissions": "@jRandomSkills/admin"
     },
     "SwapCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "TimeToVote": 15.0,
       "PercentagesToSuccess": 90.0,
       "TimeToNextVoting": 15.0,
@@ -145,7 +125,7 @@
       "Permissions": "@jRandomSkills/admin"
     },
     "ShuffleCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "TimeToVote": 15.0,
       "PercentagesToSuccess": 90.0,
       "TimeToNextVoting": 15.0,
@@ -155,7 +135,7 @@
       "Permissions": "@jRandomSkills/admin"
     },
     "PauseCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "TimeToVote": 15.0,
       "PercentagesToSuccess": 60.0,
       "TimeToNextVoting": 15.0,
@@ -165,7 +145,7 @@
       "Permissions": "@jRandomSkills/admin"
     },
     "SetScoreCommand": {
-      "EnableVoting": true,
+      "EnableVoting": false,
       "TimeToVote": 15.0,
       "PercentagesToSuccess": 90.0,
       "TimeToNextVoting": 15.0,

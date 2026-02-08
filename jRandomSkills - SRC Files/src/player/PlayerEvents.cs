@@ -384,7 +384,7 @@ namespace src.player
             return HookResult.Continue;
         }
 
-        private static HookResult RoundStart(EventRoundStart @event, GameEventInfo info)
+  private static HookResult RoundStart(EventRoundStart @event, GameEventInfo info)
         {
             lock (setLock)
             {
@@ -399,9 +399,16 @@ namespace src.player
                 }
 
                 Instance.RemoveListener<CheckTransmit>(CheckTransmit);
+                
+                if (setSkillTimer != null)
+                {
+                    setSkillTimer.Kill();
+                    setSkillTimer = null;
+                }
+                
                 int freezetime = ConVar.Find("mp_freezetime")?.GetPrimitiveValue<Int32>() ?? 0;
                 freezeTimeEnd = DateTime.Now.AddSeconds(freezetime + (Instance?.GameRules?.TeamIntroPeriod == true ? 7 : 0));
-                Instance?.AddTimer((Instance?.GameRules?.TeamIntroPeriod == true ? 7 : 0) + Math.Max(freezetime - Config.LoadedConfig.SkillTimeBeforeStart, 0) + .3f, SetSkill);
+                setSkillTimer = Instance?.AddTimer((Instance?.GameRules?.TeamIntroPeriod == true ? 7 : 0) + Math.Max(freezetime - Config.LoadedConfig.SkillTimeBeforeStart, 0) + .3f, SetSkill);
                 return HookResult.Continue;
             }
         }

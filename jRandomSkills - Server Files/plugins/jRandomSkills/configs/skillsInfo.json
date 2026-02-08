@@ -4,7 +4,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#fbff00",
-    "Active": true,
+    "Active": false,
     "Name": "Zeus",
     "RequiredPermission": ""
   },
@@ -14,7 +14,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#c7e03a",
-    "Active": true,
+    "Active": false,
     "Name": "WeaponsSwap",
     "RequiredPermission": ""
   },
@@ -25,7 +25,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ff462e",
-    "Active": true,
+    "Active": false,
     "Name": "Watchmaker",
     "RequiredPermission": ""
   },
@@ -65,7 +65,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#1b04cc",
-    "Active": true,
+    "Active": false,
     "Name": "ThirdEye",
     "RequiredPermission": ""
   },
@@ -94,7 +94,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#1466F5",
-    "Active": true,
+    "Active": false,
     "Name": "SwapPosition",
     "RequiredPermission": ""
   },
@@ -104,7 +104,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#42f5da",
-    "Active": true,
+    "Active": false,
     "Name": "Spectator",
     "RequiredPermission": ""
   },
@@ -116,13 +116,13 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#e3ed8c",
-    "Active": true,
+    "Active": false,
     "Name": "SoundMaker",
     "RequiredPermission": ""
   },
   {
-    "ChanceFrom": 1.15,
-    "ChanceTo": 1.35,
+    "ChanceFrom": 1.2,
+    "ChanceTo": 1.45,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -136,7 +136,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#e0873a",
-    "Active": true,
+    "Active": false,
     "Name": "SniperElite",
     "RequiredPermission": ""
   },
@@ -155,7 +155,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 2,
     "Color": "#f5b74c",
-    "Active": true,
+    "Active": false,
     "Name": "ShortBomb",
     "RequiredPermission": ""
   },
@@ -172,7 +172,7 @@
     "RequiredPermission": ""
   },
   {
-    "StartHealth": 50,
+    "StartHealth": 100,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -186,7 +186,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#8A2BE2",
-    "Active": true,
+    "Active": false,
     "Name": "Saper",
     "RequiredPermission": ""
   },
@@ -207,7 +207,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#119125",
-    "Active": true,
+    "Active": false,
     "Name": "RobinHood",
     "RequiredPermission": ""
   },
@@ -218,12 +218,12 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#D4AF37",
-    "Active": true,
+    "Active": false,
     "Name": "RichBoy",
     "RequiredPermission": ""
   },
   {
-    "ZombieHealth": 250,
+    "ZombieHealth": 800,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -237,7 +237,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#a68132",
-    "Active": true,
+    "Active": false,
     "Name": "ReturnToSender",
     "RequiredPermission": ""
   },
@@ -247,7 +247,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#a86eff",
-    "Active": true,
+    "Active": false,
     "Name": "Retreat",
     "RequiredPermission": ""
   },
@@ -259,12 +259,12 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#a3000b",
-    "Active": true,
+    "Active": false,
     "Name": "Replicator",
     "RequiredPermission": ""
   },
   {
-    "HealthToAdd": 1,
+    "HealthToAdd": 2,
     "Cooldown": 0.25,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
@@ -301,13 +301,13 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#e0873a",
-    "Active": true,
+    "Active": false,
     "Name": "RandomWeapon",
     "RequiredPermission": ""
   },
   {
-    "MinExtraHealth": 50,
-    "MaxExtraHealth": 501,
+    "MinExtraHealth": 100,
+    "MaxExtraHealth": 900,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -340,15 +340,15 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#3c47de",
-    "Active": true,
+    "Active": false,
     "Name": "Pyro",
     "RequiredPermission": ""
   },
   {
     "ChanceFrom": 0.3,
-    "ChanceTo": 0.4,
+    "ChanceTo": 0.6,
     "JumpVelocity": 300.0,
-    "PushVelocity": 400.0,
+    "PushVelocity": 700.0,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -364,7 +364,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 3,
     "Color": "#507529",
-    "Active": true,
+    "Active": false,
     "Name": "PsychicDefusing",
     "RequiredPermission": ""
   },
@@ -373,7 +373,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#9c9c9c",
-    "Active": true,
+    "Active": false,
     "Name": "Prosthesis",
     "RequiredPermission": ""
   },
@@ -382,7 +382,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ffc061",
-    "Active": true,
+    "Active": false,
     "Name": "PrimaryBan",
     "RequiredPermission": ""
   },
@@ -404,12 +404,12 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 2,
     "Color": "#7d7d7d",
-    "Active": true,
+    "Active": false,
     "Name": "Planter",
     "RequiredPermission": ""
   },
   {
-    "MaximumFuel": 150.0,
+    "MaximumFuel": 280.0,
     "FuelConsumption": 0.64,
     "Refuelling": 0.1,
     "NeedsTeammates": false,
@@ -421,8 +421,8 @@
     "RequiredPermission": ""
   },
   {
-    "ChanceFrom": 0.2,
-    "ChanceTo": 0.4,
+    "ChanceFrom": 0.3,
+    "ChanceTo": 0.6,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -447,7 +447,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#3c47de",
-    "Active": true,
+    "Active": false,
     "Name": "OnlyHead",
     "RequiredPermission": ""
   },
@@ -456,7 +456,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ff5CD9",
-    "Active": true,
+    "Active": false,
     "Name": "OneShot",
     "RequiredPermission": ""
   },
@@ -474,7 +474,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#FFFFFF",
-    "Active": true,
+    "Active": false,
     "Name": "None",
     "RequiredPermission": ""
   },
@@ -494,7 +494,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#44ebd4",
-    "Active": true,
+    "Active": false,
     "Name": "Noclip",
     "RequiredPermission": ""
   },
@@ -506,7 +506,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#dedede",
-    "Active": true,
+    "Active": false,
     "Name": "Ninja",
     "RequiredPermission": ""
   },
@@ -526,7 +526,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#52f54c",
-    "Active": true,
+    "Active": false,
     "Name": "MoneySwap",
     "RequiredPermission": ""
   },
@@ -538,7 +538,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#10c212",
-    "Active": true,
+    "Active": false,
     "Name": "Medic",
     "RequiredPermission": ""
   },
@@ -548,7 +548,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#9ba882",
-    "Active": true,
+    "Active": false,
     "Name": "Magnifier",
     "RequiredPermission": ""
   },
@@ -577,7 +577,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#a3651a",
-    "Active": true,
+    "Active": false,
     "Name": "LifeSwap",
     "RequiredPermission": ""
   },
@@ -587,12 +587,12 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#57bcff",
-    "Active": true,
+    "Active": false,
     "Name": "KillerFlash",
     "RequiredPermission": ""
   },
   {
-    "HealthToAdd": 3,
+    "HealthToAdd": 5,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -606,7 +606,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#b01e5d",
-    "Active": true,
+    "Active": false,
     "Name": "JumpBan",
     "RequiredPermission": ""
   },
@@ -617,7 +617,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#8f108f",
-    "Active": true,
+    "Active": false,
     "Name": "Jester",
     "RequiredPermission": ""
   },
@@ -636,7 +636,7 @@
     "OnlyTeam": 0,
     "Color": "#f542ef",
     "Active": true,
-    "Name": "Jackal",
+    "Name": "false",
     "RequiredPermission": ""
   },
   {
@@ -664,7 +664,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#d0d930",
-    "Active": true,
+    "Active": false,
     "Name": "Iana",
     "RequiredPermission": ""
   },
@@ -716,7 +716,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#e0d83a",
-    "Active": true,
+    "Active": false,
     "Name": "GodMode",
     "RequiredPermission": ""
   },
@@ -725,7 +725,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#fff52e",
-    "Active": true,
+    "Active": false,
     "Name": "Glue",
     "RequiredPermission": ""
   },
@@ -734,7 +734,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#f542ef",
-    "Active": true,
+    "Active": false,
     "Name": "Glitch",
     "RequiredPermission": ""
   },
@@ -767,7 +767,7 @@
     "RequiredPermission": ""
   },
   {
-    "TriggerRadius": 180.0,
+    "TriggerRadius": 260.0,
     "SlownessMultiplier": 5,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
@@ -793,7 +793,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 3,
     "Color": "#5d00ff",
-    "Active": true,
+    "Active": false,
     "Name": "FragileBomb",
     "RequiredPermission": ""
   },
@@ -805,13 +805,13 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#1b04cc",
-    "Active": true,
+    "Active": false,
     "Name": "Fortnite",
     "RequiredPermission": ""
   },
   {
-    "ChanceFrom": 1.2,
-    "ChanceTo": 3.0,
+    "ChanceFrom": 1.5,
+    "ChanceTo": 5.0,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -825,7 +825,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ffc061",
-    "Active": true,
+    "Active": false,
     "Name": "FastReload",
     "RequiredPermission": ""
   },
@@ -835,15 +835,15 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#d1f542",
-    "Active": true,
+    "Active": false,
     "Name": "FalconEye",
     "RequiredPermission": ""
   },
   {
-    "Damage": 25.0,
-    "DamageRadius": 210.0,
-    "ChanceFrom": 0.15,
-    "ChanceTo": 0.3,
+    "Damage": 20.0,
+    "DamageRadius": 255.0,
+    "ChanceFrom": 0.5,
+    "ChanceTo": 0.7,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -859,7 +859,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#ff8c92",
-    "Active": true,
+    "Active": false,
     "Name": "EnemySpawn",
     "RequiredPermission": ""
   },
@@ -893,7 +893,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ffb73b",
-    "Active": true,
+    "Active": false,
     "Name": "Duplicator",
     "RequiredPermission": ""
   },
@@ -903,7 +903,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#FA050D",
-    "Active": true,
+    "Active": false,
     "Name": "Dracula",
     "RequiredPermission": ""
   },
@@ -917,8 +917,8 @@
     "RequiredPermission": ""
   },
   {
-    "ChanceFrom": 0.2,
-    "ChanceTo": 0.35,
+    "ChanceFrom": 0.15,
+    "ChanceTo": 0.25,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -932,7 +932,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#dae01f",
-    "Active": true,
+    "Active": false,
     "Name": "Deaf",
     "RequiredPermission": ""
   },
@@ -941,7 +941,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#919191",
-    "Active": true,
+    "Active": false,
     "Name": "Deactivator",
     "RequiredPermission": ""
   },
@@ -967,7 +967,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#383838",
-    "Active": true,
+    "Active": false,
     "Name": "Darkness",
     "RequiredPermission": ""
   },
@@ -977,7 +977,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#34ebd5",
-    "Active": true,
+    "Active": false,
     "Name": "Cypher",
     "RequiredPermission": ""
   },
@@ -986,7 +986,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#88a31a",
-    "Active": true,
+    "Active": false,
     "Name": "Cutter",
     "RequiredPermission": ""
   },
@@ -996,7 +996,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 3,
     "Color": "#343deb",
-    "Active": true,
+    "Active": false,
     "Name": "ChillOut",
     "RequiredPermission": ""
   },
@@ -1011,7 +1011,7 @@
   },
   {
     "ChanceFrom": 0.2,
-    "ChanceTo": 0.4,
+    "ChanceTo": 0.3,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -1026,7 +1026,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#db6c35",
-    "Active": true,
+    "Active": false,
     "Name": "CarefulBullets",
     "RequiredPermission": ""
   },
@@ -1040,7 +1040,7 @@
     "RequiredPermission": ""
   },
   {
-    "MaxSpeed": 500.0,
+    "MaxSpeed": 700.0,
     "JumpVelocity": 300.0,
     "JumpBoost": 2.0,
     "NeedsTeammates": false,
@@ -1059,13 +1059,13 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#cc7504",
-    "Active": true,
+    "Active": false,
     "Name": "BladeMaster",
     "RequiredPermission": ""
   },
   {
     "ChanceFrom": 0.2,
-    "ChanceTo": 0.4,
+    "ChanceTo": 0.3,
     "NeedsTeammates": false,
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
@@ -1082,7 +1082,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#2effc7",
-    "Active": true,
+    "Active": false,
     "Name": "Baseball",
     "RequiredPermission": ""
   },
@@ -1091,7 +1091,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#abab33",
-    "Active": true,
+    "Active": false,
     "Name": "Bankrupt",
     "RequiredPermission": ""
   },
@@ -1113,7 +1113,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#d9d9d9",
-    "Active": true,
+    "Active": false,
     "Name": "Assassin",
     "RequiredPermission": ""
   },
@@ -1133,7 +1133,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 3,
     "Color": "#edf5b5",
-    "Active": true,
+    "Active": false,
     "Name": "AreaReaper",
     "RequiredPermission": ""
   },
@@ -1163,7 +1163,7 @@
     "DisableOnFreezeTime": true,
     "OnlyTeam": 0,
     "Color": "#a86eff",
-    "Active": true,
+    "Active": false,
     "Name": "Anomaly",
     "RequiredPermission": ""
   },
@@ -1172,7 +1172,7 @@
     "DisableOnFreezeTime": false,
     "OnlyTeam": 0,
     "Color": "#ff0000",
-    "Active": true,
+    "Active": false,
     "Name": "Aimbot",
     "RequiredPermission": ""
   }

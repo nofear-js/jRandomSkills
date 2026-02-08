@@ -23,8 +23,15 @@ namespace src.player.skills
             var victimInfo = Instance.SkillPlayer.FirstOrDefault(p => p.SteamID == victim?.SteamID);
             if (victimInfo?.Skill == skillName && victim!.PawnIsAlive && attacker!.PawnIsAlive)
             {
-                SkillUtils.TakeHealth(attacker.PlayerPawn.Value, (int)(@event.DmgHealth * SkillsInfo.GetValue<float>(skillName, "healthTakenScale")));
-                attacker.EmitSound("Player.DamageBody.Onlooker");
+                int damageToReflect = (int)(@event.DmgHealth * SkillsInfo.GetValue<float>(skillName, "healthTakenScale"));
+                int currentHealth = attacker.PlayerPawn.Value.Health;
+                
+                int actualDamage = Math.Min(damageToReflect, currentHealth - 1);
+                if (actualDamage > 0)
+                {
+                    SkillUtils.TakeHealth(attacker.PlayerPawn.Value, actualDamage);
+                    attacker.EmitSound("Player.DamageBody.Onlooker");
+                }
             }
         }
 

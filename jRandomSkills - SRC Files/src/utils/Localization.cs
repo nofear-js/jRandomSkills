@@ -1,4 +1,4 @@
-﻿using CounterStrikeSharp.API;
+using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Modules.Utils;
 using MaxMind.Db;
@@ -187,8 +187,11 @@ namespace src.utils
         {
             if (string.IsNullOrEmpty(playerIP)) return null;
             if (!File.Exists(geoliteFilePath)) return null;
+            
+            // Check if IP address is valid before parsing (SDR connections return "SDR" instead of IP)
+            if (!IPAddress.TryParse(playerIP, out var ip)) return null;
+            
             using var reader = new Reader(geoliteFilePath);
-            var ip = IPAddress.Parse(playerIP);
             var data = reader.Find<ConcurrentDictionary<string, object>>(ip);
             if (data == null || data.IsEmpty) return null;
 

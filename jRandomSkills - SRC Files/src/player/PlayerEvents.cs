@@ -8,6 +8,7 @@ using CounterStrikeSharp.API.Modules.Memory;
 using CounterStrikeSharp.API.Modules.Memory.DynamicFunctions;
 using CounterStrikeSharp.API.Modules.UserMessages;
 using CounterStrikeSharp.API.Modules.Utils;
+using Timer = CounterStrikeSharp.API.Modules.Timers.Timer;
 using src.utils;
 using System.Collections.Concurrent;
 using static CounterStrikeSharp.API.Core.Listeners;
@@ -20,7 +21,7 @@ namespace src.player
         private static DateTime freezeTimeEnd = DateTime.MinValue;
         private static bool isTransmitRegistered = false;
         public static readonly jSkill_SkillInfo noneSkill = new(Skills.None, SkillsInfo.GetValue<string>(Skills.None, "color"), false);
-
+        private static Timer setSkillTimer = null;
         private static jSkill_SkillInfo ctSkill = noneSkill;
         private static jSkill_SkillInfo tSkill = noneSkill;
         private static jSkill_SkillInfo allSkill = noneSkill;
